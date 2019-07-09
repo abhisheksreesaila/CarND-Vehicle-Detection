@@ -35,4 +35,4 @@ I decided to start with 50% overlap and (64, 64) windows size (since the images 
 ![doc.png](https://github.com/abhisheksreesaila/CarND-Vehicle-Detection/blob/master/test6_MARKED.jpg)  
 
 # Video
-
+[![CarND-Vehicle-Detection](https://img.youtube.com/vi/5wKM09thWhY/0.jpg)](https://www.youtube.com/watch?v=5wKM09thWhY)
