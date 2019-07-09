@@ -26,6 +26,10 @@ I trained a linear SVM using color features as well as HOG features. Using 32 sp
 # Step 3 : Sliding Window Search
 I decided to start with 50% overlap and (64, 64) windows size (since the images we have trained on were 64x64). The window we decided to search between the Y values =  (350, 656). This skips the top half of the image and only search a portion of the image. Then I tested on 6 given test images.  Gradually, increasing the overlap from 50 – 85% to get the best results. I kept the scales constant at 1.25. There were many false positives still. 
 
+# Inference (Video)
+
+[![CarND-Vehicle-Detection](https://img.youtube.com/vi/5wKM09thWhY/0.jpg)](https://www.youtube.com/watch?v=5wKM09thWhY)
+
 # Inference (photos)
 ![doc.png](https://github.com/abhisheksreesaila/CarND-Vehicle-Detection/blob/master/test1_MARKED.jpg)  
 ![doc.png](https://github.com/abhisheksreesaila/CarND-Vehicle-Detection/blob/master/test2_MARKED.jpg)  
@@ -34,5 +38,4 @@ I decided to start with 50% overlap and (64, 64) windows size (since the images 
 ![doc.png](https://github.com/abhisheksreesaila/CarND-Vehicle-Detection/blob/master/test5_MARKED.jpg)  
 ![doc.png](https://github.com/abhisheksreesaila/CarND-Vehicle-Detection/blob/master/test6_MARKED.jpg)  
 
-# Video
-[![CarND-Vehicle-Detection](https://img.youtube.com/vi/5wKM09thWhY/0.jpg)](https://www.youtube.com/watch?v=5wKM09thWhY)
+
